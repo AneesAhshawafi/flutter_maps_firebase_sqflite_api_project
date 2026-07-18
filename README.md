@@ -34,11 +34,15 @@ Before running this project, make sure you have:
 * Handling JSON parsing and data models.
 * Error handling and status codes.
 
-### 3. Firebase Services Integration 🔥
-* Firebase Core setup for Android & iOS.
-* **Firebase Authentication:** Email/password and social login flow.
-* **Cloud Firestore / Realtime Database:** Real-time data sync and queries.
-* **Firebase Storage:** Uploading images and media assets.
+### 3. Firebase Phone Authentication 🔥
+* **Phone Auth Workflow:** Understanding the lifecycle of authenticating users via mobile numbers and SMS OTP.
+* **Sending OTP Code:** Utilizing `verifyPhoneNumber` to send verification codes via SMS.
+* **Handling Callbacks:**
+  * `verificationCompleted`: Automatic SMS code handling on Android.
+  * `verificationFailed`: Managing invalid numbers, quota limits, or network errors.
+  * `codeSent`: Capturing the `verificationId` to navigate users to the OTP input screen.
+  * `codeAutoRetrievalTimeout`: Managing timeout limits for resending codes.
+* **Credential Sign-In:** Creating `PhoneAuthCredential` with the SMS code and logging in via `signInWithCredential`.
 
 ### 4. Google Maps & Geolocation 📍
 * Integrating `google_maps_flutter`.
