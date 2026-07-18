@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163490046102",
+    "project_id": "anees-maps",
+    "storage_bucket": "anees-maps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163490046102:android:70d1c0cefd30b4affca2b7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_maps_firebase_sqflite_api_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1-ddgYnFL2JC_fTCoKi8a1wCXq6jyc2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
